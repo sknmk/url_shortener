@@ -52,7 +52,7 @@ curl -X GET "http://127.0.0.1:8000/shortener/" -H "accept: application/json" -H 
 ### Redirect to Original URL
 #### Request
 ```bash
-curl -X GET "http://127.0.0.1:8000/r/0GrR/" -H "accept: application/json" -H "X-CSRFToken: YOUR-CSRF-TOKEN"
+curl -X GET "http://127.0.0.1:8000/r/0GrR/"
 ```
 #### Response
 302 Found
