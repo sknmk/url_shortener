@@ -20,5 +20,4 @@ schema_view = get_swagger_view(title='Pastebin API')
 
 urlpatterns = [
     path('', include('shortener.urls')),
-    path('api-doc/', schema_view)
 ]
