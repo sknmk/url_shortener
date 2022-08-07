@@ -56,3 +56,7 @@ curl -X GET "http://127.0.0.1:8000/r/0GrR/" -H "accept: application/json" -H "X-
 ```
 #### Response
 302 Found
+
+## Licence
+
+MIT
